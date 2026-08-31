@@ -1,0 +1,23 @@
+# Builds
+**/*.o
+MD/C/MD
+MD/Test/diff-output
+MDPerformance/C/MD
+MDPerformance/C/MD_opt1
+MDPerformance/C/MD_opt2
+MDPerformance/C/MD_opt_archer2
+MDPerformance/Test/diff-output
+*.dSYM/
+**/.pgo/
+
+# Generated runs
+**/output.dat*
+MDPerformance/results/
+MD/results/
+*.log
+*.tmp
+*.out
+*.err
+
+# Reports and local metadata
+.DS_Store
